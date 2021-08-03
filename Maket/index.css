@@ -1,0 +1,138 @@
+.firstHeader{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: burlywood;
+}
+.firstDiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondDiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+    position: relative;
+}
+.third_div{
+        background-color:white;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        z-index: 2;
+        margin-top:-200px;
+        margin-left:100px ;
+        padding-top: 100px;
+}
+.custom_div{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.thirdDiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+}   
+.fourthDiv{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+}
+.fifthDiv{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.sixDiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding-right: 200px;
+}
+.sevenDiv{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 70px;
+}
+.eightDiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.firstFooter{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondFooter{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.thirdFooter {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.attribution::after{
+    content: ";)";
+}
+img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    display: block;
+}
+.b3{
+    margin-left: 350px;
+}
+.b1{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    border: black;
+    border-style: solid;
+    right: 100px;
+}
+.b2{
+    margin-top: 50px;
+    border: black;
+    border-style: solid;
+    left: 100px;
+}
+h1{
+    margin: 10px;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h2{
+    padding-left:100px px;
+}
+h4{
+    margin: 10px;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
