@@ -1,0 +1,169 @@
+@font-face {
+    font-family: MerriweatherRegular;
+    src: url("fonts/MerriweatherRegular/MerriweatherRegular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/Montserrat-BlackItalic.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+.first_div{
+    width: 1340px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;    
+    align-items: flex-end;
+    font-family: MerriweatherRegular;
+}
+.second_div p {
+    font-family: Montserrat;
+}
+.font_merriweater{
+    font-family:MerriweatherRegular;
+    font-weight: bold;
+}
+.font_montserrat{
+    font-family: Montserrat;
+    font-weight: initial;
+}
+.under{
+    position: absolute;
+}
+.over{
+    z-index: 11;
+    position: relative;
+    padding-right: 130px;
+    padding-top: 40px;
+}
+.second_div{
+    position: absolute;
+    background-color: white;
+    width: 730px;
+    height: 525px;
+    margin-top: 380px;
+    margin-right: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.second_div span{
+    font-size: 45px;
+    padding-left: 50px;
+}
+.second_div p{
+    padding-left: 50px;
+}
+.third_div{
+    margin-top: 300px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.text_div{
+    padding-left: 50px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: MerriweatherRegular;
+}
+.fourth_div{
+    margin-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.fifth_div{
+    margin-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.button_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.sixth_class{
+    padding-left: 50px;
+    margin-top: 100px;
+    font-size: 50px;
+}
+.seven_div{
+    margin-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.textes_div{
+    margin-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.bold24{
+    font-size: 24px;
+}
+.bold18{
+    font-size: 40px;
+}
+.pervoe_predlojenie{
+    font-size: 18px;
+}
+.footer{
+    margin-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media (max-width: 1280px) { 
+    body{
+        font-size: 90%;
+       
+    }
+    .under{
+        width: 90%;
+        padding:0px;
+    }
+    .first_div{
+        margin: 0%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) { 
+    body{
+        font-size: 120%;
+    }
+    .under{
+        width: 150%;
+        margin-right:600px;
+    }
+    .over{
+        margin-right: 700px;
+        width: 20%;
+    }
+    .second_div{
+        margin-right:600px;
+        font-size: 50%;
+        padding-left: 0;
+    }
+    .fifth_div{
+        font-size: 10px;
+    }
+    .fifth_div img{
+        width: 100%;
+    }
+}
